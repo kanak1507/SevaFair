@@ -1,0 +1,37 @@
+# Dependencies
+
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+server/.env
+server/.env.*
+!server/.env.example
+
+# Build output
+
+client/dist/
+dist/
+coverage/
+
+# Local databases and logs
+
+server/database/*.db
+server/database/*.db-shm
+server/database/*.db-wal
+*.log
+npm-debug.log*
+
+# OS and editor
+
+.DS_Store
+Thumbs.db
+.vscode/
